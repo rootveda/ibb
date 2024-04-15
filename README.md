@@ -18,11 +18,11 @@ This builds includes below modules:
 ### Dependencies
 
 * For module [1] & [2]:
-  OS: Ubuntu:latest/8GB (min.)
-  Docker
+  - OS: Ubuntu:latest/8GB (min.)
+  - Docker
 * For module [3]:
-  Need 10 x Raspberry Pi Pico Wh
-  Arduino IDE
+  - Need 10 x Raspberry Pi Pico Wh
+  - Arduino IDE
 * Make sure below ports are NOT IN USE:
   - For MONGODB [29017 & 27017]
   - For Nodejs Application & cluster [1575-1600, 1773]
