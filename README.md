@@ -62,8 +62,7 @@ docker stats
 Use Arduino IDE or other to burn the code.
 * Download the code from folder {ibb/ibb_pico.ino}
 * Change below wi-fi config parameters to your wi-fi: [line:7 & line:8]
-
-  ''' 
+``` 
 const char* ssid = "your_SSID";    
 const char* password = "your_SSID-PWD";
-  '''
+```
