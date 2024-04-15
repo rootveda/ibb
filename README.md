@@ -24,7 +24,7 @@ This builds includes below modules:
   - Need 10 x Raspberry Pi Pico Wh
   - Arduino IDE
 * Make sure below ports are NOT IN USE:
-  - For MONGODB [29017 & 27017]
+  - For MongoDB [29017 & 27017]
   - For Nodejs Application & cluster [1575-1600, 1773]
 
 ### Installing
@@ -62,6 +62,7 @@ docker stats
 Use Arduino IDE or other to burn the code.
 * Download the code from folder {ibb/ibb_pico.ino}
 * Change below wi-fi config parameters to your wi-fi: [line:7 & line:8]
+
   ''' 
 const char* ssid = "your_SSID";    
 const char* password = "your_SSID-PWD";
