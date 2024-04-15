@@ -5,9 +5,13 @@ Interactive UI design to control the bots and monitor data stream on dashboard.
 ## Description
 
 This builds includes below modules:
+
 [1] Nodejs Server: Configured to deploy the admin and user controls.
+
 [2] MonoDB Database: Services linked to node services.
+
 [3] Mirocontroller {Raspberry Pi Pico}: client side (bot brain) module written in C++.
+
 
 ## Getting Started
 
