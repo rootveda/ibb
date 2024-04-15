@@ -8,7 +8,7 @@ This builds includes below modules:
 
 [1] Nodejs Server: Configured to deploy the admin and user controls.
 
-[2] MonoDB Database: Services linked to node services.
+[2] MongoDB Database: Linked to node application services.
 
 [3] Mirocontroller {Raspberry Pi Pico}: client side (bot brain) module written in C++.
 
@@ -18,19 +18,20 @@ This builds includes below modules:
 ### Dependencies
 
 * For module [1] & [2]:
-  OS: Ubuntu:latest/8GB
+  OS: Ubuntu:latest/8GB (min.)
   Docker
 * For module [3]:
-  Raspberry Pi Pico Wh
+  Need 10 x Raspberry Pi Pico Wh
+  Arduino IDE
 * Make sure below ports are NOT IN USE:
-  - MONGODB [29017 & 27017]
-  - Nodejs Application & cluster [1575-1600, 1773]
+  - For MONGODB [29017 & 27017]
+  - For Nodejs Application & cluster [1575-1600, 1773]
 
 ### Installing
 
 1. Clone this repository
 
-2. Install Docker on Ubuntu from here - https://docs.docker.com/engine/install/ubuntu/
+2. Install Docker on Ubuntu: https://docs.docker.com/engine/install/ubuntu/
    
 3. Assign this IP/static {192.168.1.141} to your ubuntu host ~ next version will replace this with a hostname "ibb".
 
@@ -65,10 +66,3 @@ Use Arduino IDE or other to burn the code.
 const char* ssid = "your_SSID";    
 const char* password = "your_SSID-PWD";
   '''
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
