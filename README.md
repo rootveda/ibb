@@ -22,29 +22,31 @@ This builds includes below modules:
   Docker
 * For module [3]:
   Raspberry Pi Pico Wh
-
+* Make sure below ports are NOT IN USE:
+  - MONGODB [29017 & 27017]
+  - Nodejs Application & cluster [1575-1600, 1773]
 
 ### Installing
 
-* How/where to download your program
 1. Clone this repository
 
 2. Install Docker on Ubuntu from here - https://docs.docker.com/engine/install/ubuntu/
    
-3. Build docker IBB image and run IBB cluster:
-```
-cd IBB
-sudo 
+3. Assign this IP/static {192.168.1.141} to your ubuntu host ~ next version will replace this with a hostname "ibb".
 
-```
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Pull MongoDB docker image and configure: [DO NOT PULL LATEST MONGODB IMAGE]
 ```
-code blocks for commands
+docker pull mongo:bionic
+docker run --name mongodb -p 29017:27017 -d mongo:bionic
+```
+* Now build docker IBB cluster image: [RUN THIS FROM IBB FOLDER ]
+```
+cd ibb
+docker build -t ibb .
+docker run -p 1575-1600:1575-1600 -p 1773:1773 -v ${PWD}/etc/supervisor:/etc/supervisor -v ${PWD}/var/log/supervisor:/var/log/supervisor -v ${PWD}/rules:/rules --name IBB ibb
 ```
 
 ## Help
