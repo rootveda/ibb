@@ -20,4 +20,4 @@ RUN npm install -g --unsafe-perm node-red
 RUN npm install -g --unsafe-perm node-red-admin
 EXPOSE 1481-1900
 CMD ["/usr/bin/supervisord"]
-#docker run -p 1581-1600:1581-1600 -v ${PWD}/etc/supervisor:/etc/supervisor -v ${PWD}/var/log/supervisor:/var/log/supervisor -v ${PWD}/rules:/rules --name IBB_clusters ibb-docker
+#docker run -p 1575-1600:1575-1600 -p 1773:1773 -v ${PWD}/etc/supervisor:/etc/supervisor -v ${PWD}/var/log/supervisor:/var/log/supervisor -v ${PWD}/rules:/rules --name IBB ibb
