@@ -47,35 +47,24 @@ docker run --name mongodb -p 29017:27017 -d mongo:bionic
 cd ibb
 docker build -t ibb .
 docker run -p 1575-1600:1575-1600 -p 1773:1773 -v ${PWD}/etc/supervisor:/etc/supervisor -v ${PWD}/var/log/supervisor:/var/log/supervisor -v ${PWD}/rules:/rules --name IBB ibb
+docker stats
 ```
 
-## Help
+## URLs In Play
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+* Admin Controls: http://192.168.1.141:1575/ui
+* Landing page for user: http://192.168.1.141:1580/ui
+* User CTBF (capture the bot flag) port range [1581-1590]: e.g. http://192.168.1.141:1581/ui
 
-## Authors
+## Pico: Bot Code
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
+Use Arduino IDE or other to burn the code.
+* Download the code from folder {ibb/ibb_pico.ino}
+* Change below wi-fi config parameters to your wi-fi: [line:7 & line:8]
+  ''' 
+const char* ssid = "your_SSID";    
+const char* password = "your_SSID-PWD";
+  '''
 
 Inspiration, code snippets, etc.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
