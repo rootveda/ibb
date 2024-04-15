@@ -1,0 +1,354 @@
+13 Apr 09:09:53 - [info] 
+
+Welcome to Node-RED
+===================
+
+13 Apr 09:09:53 - [info] Node-RED version: v3.1.8
+13 Apr 09:09:53 - [info] Node.js  version: v16.13.0
+13 Apr 09:09:53 - [info] Linux 6.5.0-1013-raspi arm64 LE
+13 Apr 09:09:59 - [info] Loading palette nodes
+13 Apr 09:10:10 - [info] Dashboard version 3.6.5 started at /ui
+13 Apr 09:10:12 - [info] Settings file  : /rules/bots/bot9/.node-red/settings.js
+13 Apr 09:10:12 - [info] Context store  : 'default' [module=memory]
+13 Apr 09:10:12 - [info] User directory : /rules/bots/bot9
+13 Apr 09:10:12 - [warn] Projects disabled : set editorTheme.projects.enabled=true to enable
+13 Apr 09:10:12 - [info] Flows file     : /rules/bots/bot9/flows_bot9.json
+13 Apr 09:10:12 - [info] Server now running at http://127.0.0.1:1589/
+13 Apr 09:10:12 - [warn] 
+
+---------------------------------------------------------------------
+Your flow credentials file is encrypted using a system-generated key.
+
+If the system-generated key is lost for any reason, your credentials
+file will not be recoverable, you will have to delete it and re-enter
+your credentials.
+
+You should set your own key using the 'credentialSecret' option in
+your settings file. Node-RED will then re-encrypt your credentials
+file using your chosen key the next time you deploy a change.
+---------------------------------------------------------------------
+
+13 Apr 09:10:13 - [info] Starting flows
+13 Apr 09:10:13 - [info] [mongodb4-client:botqadb] client initialized with app name 'nodered-6m9ug0rh'
+13 Apr 09:10:13 - [info] [mongodb4-client:botdb] client initialized with app name 'nodered-g9l7t955'
+13 Apr 09:10:14 - [info] Started flows
+13 Apr 09:10:14 - [info] [mqtt-broker:mb] Connection failed to broker: mqtt://localhost:1773
+13 Apr 09:10:29 - [info] [mqtt-broker:mb] Connected to broker: mqtt://localhost:1773
+13 Apr 09:10:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoTopologyClosedError: Topology is closed
+13 Apr 09:10:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoTopologyClosedError: Topology is closed
+13 Apr 09:10:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoTopologyClosedError: Topology is closed
+13 Apr 09:10:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoTopologyClosedError: Topology is closed
+13 Apr 09:10:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoTopologyClosedError: Topology is closed
+13 Apr 09:10:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoTopologyClosedError: Topology is closed
+13 Apr 09:10:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:11:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:11:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:11:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:11:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:11:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:11:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:11:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:11:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:11:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:11:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:11:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:11:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:11:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:12:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:13:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:14:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:15:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:15:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:15:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:15:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:15:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:15:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:15:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:16:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:17:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:17:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:17:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:17:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:17:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:17:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:17:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:17:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:17:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:17:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:17:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:17:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:17:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:18:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:18:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:18:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:18:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:18:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:18:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:18:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:18:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:18:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:18:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:18:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:18:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:19:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:19:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:19:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:19:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:19:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:19:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:19:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:19:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:19:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:19:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:19:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:19:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:19:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:20:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:20:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:20:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:20:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:20:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:20:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:20:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:20:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:20:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:20:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:20:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:20:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:21:48 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:22:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:22:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:22:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:22:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:22:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:22:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:22:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:22:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:22:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:22:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:22:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:22:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:23:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:24:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:24:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:24:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:24:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:24:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:24:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:24:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:24:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:24:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:24:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:24:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:24:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:25:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:25:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:25:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:25:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:25:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:25:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:25:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:25:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:25:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:25:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:25:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:25:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:26:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:27:11 - [info] [mqtt-broker:mb] Disconnected from broker: mqtt://localhost:1773
+13 Apr 09:27:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:27:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:27:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:27:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:27:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:27:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:27:26 - [info] [mqtt-broker:mb] Connected to broker: mqtt://localhost:1773
+13 Apr 09:27:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:27:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:27:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:27:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:27:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:27:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:28:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:23 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:28:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:28 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:29:58 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:30:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:30:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:30:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:30:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:30:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:30:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:31:03 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:31:03 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:31:03 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:31:03 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:31:03 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:31:03 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:31:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:31:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:31:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:31:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:31:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:31:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:31:33 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:32:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:08 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:32:38 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:33:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:33:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:33:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:33:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:33:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:33:13 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:33:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:33:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:33:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:33:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:33:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:33:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:33:43 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:34:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:34:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:34:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:34:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:34:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:34:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:34:18 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: connect ENETUNREACH 1.1.1.1:29017
+13 Apr 09:34:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:34:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:34:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:34:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:34:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:34:53 - [error] [mongodb4:6da6c1a91b5574b9] MongoServerSelectionError: Server selection timed out after 30000 ms
+13 Apr 09:35:11 - [info] Stopping flows
+13 Apr 09:35:11 - [info] [mongodb4-client:botqadb] client closed
+13 Apr 09:35:11 - [info] [mongodb4-client:botdb] client closed
+13 Apr 09:35:11 - [error] [mongodb4:6da6c1a91b5574b9] MongoTopologyClosedError: Topology is closed
+13 Apr 09:35:11 - [error] [mongodb4:6da6c1a91b5574b9] MongoTopologyClosedError: Topology is closed
+13 Apr 09:35:11 - [error] [mongodb4:6da6c1a91b5574b9] MongoTopologyClosedError: Topology is closed
+13 Apr 09:35:11 - [error] [mongodb4:6da6c1a91b5574b9] MongoTopologyClosedError: Topology is closed
+13 Apr 09:35:11 - [info] [mqtt-broker:mb] Disconnected from broker: mqtt://localhost:1773
+13 Apr 09:35:11 - [info] Stopped flows
+13 Apr 09:35:11 - [info] Updated flows
+13 Apr 09:35:11 - [info] Starting flows
+13 Apr 09:35:12 - [info] [mongodb4-client:botqadb] client initialized with app name 'nodered-2140bu5c'
+13 Apr 09:35:12 - [info] [mongodb4-client:botdb] client initialized with app name 'nodered-1mb7oy7w'
+13 Apr 09:35:12 - [info] Started flows
+13 Apr 09:35:12 - [info] [mqtt-broker:mb] Connected to broker: mqtt://localhost:1773
+13 Apr 09:50:23 - [info] [mqtt-broker:mb] Disconnected from broker: mqtt://localhost:1773
+13 Apr 09:50:38 - [info] [mqtt-broker:mb] Connected to broker: mqtt://localhost:1773
+13 Apr 10:36:09 - [info] [mqtt-broker:mb] Disconnected from broker: mqtt://localhost:1773
+13 Apr 10:36:24 - [info] [mqtt-broker:mb] Connected to broker: mqtt://localhost:1773
+13 Apr 10:36:58 - [info] [mqtt-broker:mb] Disconnected from broker: mqtt://localhost:1773
+13 Apr 10:37:28 - [info] [mqtt-broker:mb] Connected to broker: mqtt://localhost:1773
