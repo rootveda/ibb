@@ -28,11 +28,13 @@ This builds includes below modules:
 
 * How/where to download your program
 1. Clone this repository
+
 2. Install Docker on Ubuntu from here - https://docs.docker.com/engine/install/ubuntu/
-   '''
    
-2. ```
+3. Build docker IBB image and run IBB cluster:
+```
 cd IBB
+sudo 
 
 ```
 * Any modifications needed to be made to files/folders
