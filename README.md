@@ -19,12 +19,22 @@ This builds includes below modules:
 
 * For module [1] & [2]:
   OS: Ubuntu:latest/8GB
+  Docker
 * For module [3]:
-  
+  Raspberry Pi Pico Wh
+
 
 ### Installing
 
 * How/where to download your program
+1. Clone this repository
+2. Install Docker on Ubuntu from here - https://docs.docker.com/engine/install/ubuntu/
+   '''
+   
+2. ```
+cd IBB
+
+```
 * Any modifications needed to be made to files/folders
 
 ### Executing program
